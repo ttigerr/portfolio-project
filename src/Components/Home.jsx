@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from "react-scroll"; 
+import tiger from "../Assets/tiger.PNG";
 
 const Home = () => {
   return (
     <div name="home"className="h-screen w-full ">
-        <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-            <div className="flex flex-col justify-center h-full">
+        <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-3 md:flex-row">
+            <div className="flex flex-col justify-center sm:text-left items-center">
                 <h2 className="text-4xl m-2.5 sm:text-7xl font-bold text-white">
                     I'm a Front-End Web & App Developer
                 </h2>
@@ -21,7 +22,7 @@ const Home = () => {
             </div>
             {/* Add some Profile picture */}
             <div className="">
-                <h1 className='text-9xl text-white '>Picture here</h1>
+                <img src={tiger} alt="profile picture" className=" mx-auto md:w-full"/>
             </div>
         </div>
   </div>
