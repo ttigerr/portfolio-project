@@ -16,7 +16,7 @@ const Home = () => {
                     React, Tailwind, Next.js and Mongodb.
                 </p>
                 <Link to="about" smooth duration={500} 
-                        className="text-white w-fit px-7 py-4 my-2 flex text-center rounded-md bg-gradient-to-r from-indigo-600 to-blue-500 cursor-pointer">
+                        className="text-white w-fit px-7 py-4 my-2 flex text-center rounded-md bg-gradient-to-r from-indigo-600 to-blue-500 cursor-pointer hover:scale-110 duration-500">
                         About Me  
                 </Link>
             </div>
