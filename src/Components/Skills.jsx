@@ -2,11 +2,11 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen text-gray-300'>
+    <div name='skills' className='w-full h-screen text-black'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div className=' w-full flex justify-center items-center flex-col py-14'>
-              <p className='text-3xl m-2.5 sm:text-7xl font-bold text-center mb-9'>Skills</p>
+              <p className='text-4xl m-2.5 font-bold text-center mb-9 sm:text-7xl'>Skills</p>
               <p className='text-2xl'>Here's a list of technologies I've worked with:</p>
           </div> 
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-5 text-center py-8'>
