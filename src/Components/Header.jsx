@@ -16,7 +16,7 @@ const Header = () => {
   // };
 
   return (
-    <header className='fixed w-full h-[90px] flex justify-between items-center px-14 text-[#192a53]'>
+    <header className='fixed w-full h-[90px] flex justify-between items-center px-14 text-white'>
       <div>
         <h1 className="logo text-4xl">TIGER</h1>
       </div>
