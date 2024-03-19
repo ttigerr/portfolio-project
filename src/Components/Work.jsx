@@ -4,10 +4,10 @@ const Works = () => {
   return (
     <div name='work' className='w-full h-screen'>
       <div className='max-w-screen-lg mx-auto flex flex-col justify-center px-3 sm:px-10 w-full h-full'>
-        <div className='pb-8 w-full flex justify-center items-center flex-col'>
-          <p className='text-4xl font-bold '>
+        <div className='pb-8 w-full justify-center items-center'>
+          <strong className='text-4xl md:text-7xl'>
             Work
-          </p>
+          </strong>
           <p className='py-6 text-2xl'>Check out some of my most recent work</p>
         </div>
           {/* Container */}

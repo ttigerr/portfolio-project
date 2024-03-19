@@ -1,26 +1,25 @@
 import React from "react";
 import graduation from "../Assets/graduation.JPG";
+import { Box } from "@mui/material";
 
 const About = () => { 
   return (
-    <div name="about" id="about" className="w-full h-screen">
-        <div className="max-w-screen-lg mx-auto flex flex-col justify-center items-center w-full h-full">
+    <div name="about" id="about" className="w-full h-screen bg-[#FAFAFA] p-3">
+        <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full">
             <div className="py-14 flex flex-col justify-center items-center ">
                 <div>
-                    <div className="sm:text-right pb-12 pl-4">
-                        <p className="text-3xl m-2.5 sm:text-7xl font-bold ">
-                            ABOUT
-                        </p>
+                    <div className="pb-12 pl-4">
+                        <strong className="text-4xl md:text-7xl">
+                            About
+                        </strong>
                     </div>
                 </div>
                 {/* Container */}
-                <div className=" grid sm:grid-cols-2 gap-20 px-4">
-                        {/* Container 1 */}
-                        <div className="sm:text-left text-3xl font-bold">
-                            <img src={graduation} alt="graduation picture" className=" mx-auto md:w-full"/>
-                        </div>
-                        {/* Container 2 */}
-                        <div className="sm:text-left text-center text-gray-400">
+                <div className="grid md:grid-cols-2 gap-10 md:gap-20 md:py-3">
+                        {/* Left container*/}
+                        <img src={graduation} alt="graduation" className=" mx-auto md:w-full"/>
+                        {/* Right container */}
+                        <div className="text-left md:text-md text-gray-500">
                             <p>
                                 My name is Tiger. I'm a Front-end developer in both Website and Mobile Application. based in Sydney.
                                 I graduated from the Academy of Interactive Technology with a Bachelor of Information Technology specializing in Mobile Application Development in October 2022.
@@ -33,6 +32,28 @@ const About = () => {
                         </div>    
                 </div>  
             </div>
+            {/* Professional experience's content */}
+            <Box >
+                <strong className="text-2xl md:text-5xl">Professinal Experience</strong>
+                <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-20 py-6'>
+                    <div className='hover:scale-110 hover:bg-white duration-500'>
+                        <div className='flex flex-column md:flex-row my-4 bg-white rounded-md bg-white border-solid border-2'>
+                            <div className="text-left">
+                                <strong>Shortstop Coffee & Donuts</strong>
+                                <strong>Digital Content Manager</strong>
+                            </div>
+                            <div>
+                                <p>2023 - Present</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='hover:scale-110 hover:bg-white duration-500'>
+                        <div className='my-4 bg-white rounded-md bg-white border-solid border-2'>
+
+                        </div>
+                    </div>
+                </div>
+            </Box>
         </div>
     </div>
   );
