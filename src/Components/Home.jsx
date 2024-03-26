@@ -4,12 +4,12 @@ import tiger from "../Assets/tiger.jpeg";
 
 const Home = () => {
   return (
-    <div name="home" className="h-screen w-full">
-        <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-3 md:px-10 md:space-x-20 md:flex-row">
-            {/* Left Container */}
-            <div className="text-left items-center">
-                <img src={tiger} alt="profile" className="rounded-full h-40 md:h-80 md:py-5"/>
-                <strong className="text-4xl md:text-7xl pt-3">
+    <div name="home" className="max-w-screen-lg h-screen">
+        <section className="flex flex-col items-center justify-center h-full md:space-x-[10rem] md:flex-row">
+           {/* Left Container */}
+           <div className="text-left">
+                <img src={tiger} alt="profile" className="rounded-full md:h-80 md:py-5"/>
+                <strong className="text-4xl md:text-7xl">
                     Hi Everyone! I'm Tiger
                 </strong>
             </div>
@@ -24,7 +24,7 @@ const Home = () => {
                     with meticulous attention to detail, debugging and testing. Proficient in translating UX/Ul Design into readable and reusable code and 
                     maintaining professionalism through effective team collaboration with verbal and written skills.   
                 </p>
-                <div className="flex flex-row justify-center space-x-10 md:space-x-10">
+                <div className="flex flex-row justify-center">
                     <Link to="about" smooth duration={500} 
                             className="text-white w-fit text-md px-4 py-3 md:text-1xl md:px-7 md:py-4 md:my-3 flex text-center rounded-md bg-black cursor-pointer hover:scale-110 duration-500">
                             About Me  
@@ -34,8 +34,9 @@ const Home = () => {
                             Keep In Touch  
                     </Link>
                 </div>
-            </div>
-        </div>
+            </div> 
+        </section>
+        
   </div>
   );
 };

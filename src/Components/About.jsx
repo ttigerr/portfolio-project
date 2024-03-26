@@ -1,11 +1,10 @@
 import React from "react";
 import graduation from "../Assets/graduation.JPG";
-import { Box } from "@mui/material";
 
 const About = () => { 
   return (
-    <div name="about" id="about" className="w-full h-screen bg-[#FAFAFA] p-3">
-        <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full">
+    <div name="about" id="about" className="h-screen bg-[#FAFAFA] p-3">
+        <div className="max-w-screen-lg mx-auto flex flex-col justify-center h-full">
             <div className="py-14 flex flex-col justify-center items-center ">
                 <div>
                     <div className="pb-12 pl-4">
@@ -33,7 +32,7 @@ const About = () => {
                 </div>  
             </div>
             {/* Professional experience's content */}
-            <Box >
+            {/* <Box >
                 <strong className="text-2xl md:text-5xl">Professinal Experience</strong>
                 <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-20 py-6'>
                     <div className='hover:scale-110 hover:bg-white duration-500'>
@@ -53,7 +52,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-            </Box>
+            </Box> */}
         </div>
     </div>
   );
