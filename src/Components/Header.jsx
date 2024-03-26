@@ -14,9 +14,9 @@ const Header = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <header className="l-header">
+    <header className="sub-header">
       {/* <nav className='w-full fixed h-[70px] sm:h-[100px] flex justify-between px-3 sm:px-10 items-center bg-white'></nav> */}
-      <nav className="flex items-center h-[5rem]">
+      <nav className="m-screen flex items-center justify-between h-[6rem]">
         <Link to='home' smooth={true} duration={700}>
           <img src={logo} alt="logo" className="h-[30px] sm:h-[50px]" />
         </Link>

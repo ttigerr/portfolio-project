@@ -1,6 +1,6 @@
 
 * {
-  margin: auto;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -25,7 +25,12 @@ header {
   display: block;
 }
 
-.l-header {
+.m-screen {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.sub-header {
   width: 100%;
   position: fixed;
   background-color: #ffffff;
@@ -38,6 +43,12 @@ header {
 
 div {
   display: block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 li {

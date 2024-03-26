@@ -4,8 +4,8 @@ import tiger from "../Assets/tiger.jpeg";
 
 const Home = () => {
   return (
-    <div name="home" className="max-w-screen-lg h-screen">
-        <section className="flex flex-col items-center justify-center h-full md:space-x-[10rem] md:flex-row">
+    <div name="home" className="h-screen">
+        <section className="m-screen mx-auto flex flex-col items-center justify-center h-full md:space-x-[10rem] md:flex-row">
            {/* Left Container */}
            <div className="text-left">
                 <img src={tiger} alt="profile" className="rounded-full md:h-80 md:py-5"/>
