@@ -45,6 +45,11 @@ div {
   display: block;
 }
 
+p {
+  font-size: large;
+  color: #6b7280;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -60,14 +65,20 @@ li:hover {
 }
 
 /* Home */
-
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Tablet or IPad Screen */
+@media screen and (max-width: 1023px) {
+  .m-screen{
+    max-width: 768px;
+    margin: auto;
   }
 }
 
