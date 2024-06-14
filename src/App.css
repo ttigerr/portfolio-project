@@ -1,40 +1,33 @@
+:root {
+  --header-height:5rem;
+  --mb-2: 1rem;
+}
 
-* {
-  margin: 0;
+/* LAYOUT CSS */
+*, ::before, ::after {
   box-sizing: border-box;
 }
 
 .App {
   height: 100%;
-  display: block;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+  background-color: #efefef;
+  font-family: "Inter Tight", sans-serif; 
 }
 
 /* Header */
 header {
   display: block;
+  
 }
 
 .m-screen {
-  max-width: 1024px;
+  max-width: 1280px;
   margin: auto;
 }
 
 .sub-header {
   width: 100%;
-  position: fixed;
-  background-color: #ffffff;
-  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  position: absolute;
  }
 
  .l-home {
@@ -46,6 +39,7 @@ div {
 }
 
 p {
+  margin:0;
   font-size: large;
   color: #6b7280;
 }
@@ -65,6 +59,21 @@ li:hover {
 }
 
 /* Home */
+/* .flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.column.left {
+  flex-basis: 50%;
+}
+
+.column.right {
+  flex-basis: 50%;
+} */
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -74,6 +83,7 @@ li:hover {
   }
 }
 
+/* Responsive CSS */
 /* Tablet or IPad Screen */
 @media screen and (max-width: 1023px) {
   .m-screen{
