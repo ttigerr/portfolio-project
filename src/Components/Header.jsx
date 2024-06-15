@@ -23,7 +23,7 @@ const Header = () => {
           <ul className='hidden md:flex gap-[4rem] text-2xl'>
               <li>
                 <Link to='about' smooth={true} duration={700}>
-                  ABOUT ME
+                  ABOUT
                 </Link>
               </li>
               <li>
@@ -34,10 +34,10 @@ const Header = () => {
           </ul>
         </div>
         <div>
-          <ul>
-            <li className="p-3 px-7 rounded-md border-[1px] border-black">
+          <ul className="hidden md:flex">
+            <li className="p-3 px-7 rounded-full border-[1px] border-black">
                 <Link to='contact' smooth={true} duration={700}>
-                  CONTACT
+                  CONTACT ME
                 </Link>
             </li>
           </ul>

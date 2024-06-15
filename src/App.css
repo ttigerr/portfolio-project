@@ -27,7 +27,7 @@ header {
 
 .sub-header {
   width: 100%;
-  position: absolute;
+  position: fixed;
  }
 
  .l-home {
