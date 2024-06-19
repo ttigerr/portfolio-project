@@ -14,10 +14,13 @@ const Home = () => {
                     HI! I'M TIGER -
                 </strong>
                 <br/>
-                <strong className="text-4xl md:text-7xl text-gray-500">
+                <strong className="text-4xl md:text-7xl">
                     FRONT END DEVELOPER
                 </strong>
-                
+                <br/>
+                <strong className="text-4xl">
+                    BASED IN SYDNEY, AUSTRALIA
+                </strong>
             </div>
             {/* Bottom Container */}
             <div className="flex items-center my-10">

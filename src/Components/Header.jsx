@@ -15,12 +15,12 @@ const Header = () => {
         {/* Flex 1 */}
         <div>
           <Link to='home' smooth={true} duration={700}>
-            <p className="font-semibold text-3xl text-black">TIGER.</p>
+            <p className="font-semibold text-4xl text-black">TIGER.</p>
           </Link>
         </div>
         {/* Flex 2 */}
         <div>
-          <ul className='hidden md:flex gap-[4rem] text-2xl'>
+          <ul className='hidden text-2xl md:flex gap-[4rem]'>
               <li>
                 <Link to='about' smooth={true} duration={700}>
                   ABOUT
