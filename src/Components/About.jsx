@@ -5,7 +5,7 @@ const About = () => {
     <div name="about" id="about" className="h-screen bg-[#FAFAFA]">
         <div className="m-screen flex flex-col justify-center h-full">
             {/* Top container */}
-            <div className="flex flex-row mb-20">
+            <div className="flex flex-row my-20">
                 <div className="basis-6/12">
                     <strong className="text-xl md:text-3xl">
                         ABOUT ME.
