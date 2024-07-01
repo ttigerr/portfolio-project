@@ -27,6 +27,11 @@ const Header = () => {
                 </Link>
               </li>
               <li>
+                <Link to='skills' smooth={true} duration={700}>
+                  SKILLS
+                </Link>
+              </li>
+              <li>
                 <Link to='work' smooth={true} duration={700}>
                   WORK
                 </Link>
